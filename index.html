@@ -7,15 +7,21 @@
   <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
-  <header class="site-header">
-    <div class="wrap header-grid">
+
+<header class="site-header">
+  <div class="wrap header-grid" style="display: flex; align-items: center; gap: 16px;">
+      <img src="image_Logo.png" alt="OCTAV UTLS Logo" style="height: 100px; width: auto; object-fit: contain;">
+    <div>
       <a class="logo" href="index.html" aria-label="OCTAV UTLS home">
-        <span class="logo-mark">O</span>
         <span class="logo-text">OCTAV UTLS</span>
       </a>
-      <p class="tagline">A collaborative project template for Upper Troposphere–Lower Stratosphere research</p>
+      <p class="tagline" style="margin: 4px 0 0 0;">A collaborative project template for Upper Troposphere–Lower Stratosphere research</p>
     </div>
-  </header>
+    <a href="https://aparc-climate.org/" target="_blank" rel="noopener noreferrer">
+      <img src="image_APARC_RGB_logo-baseline_positive.png" alt="Logo" style="height: 100px; width: auto; object-fit: contain; margin-left: 100px;">
+    </a>
+  </div>
+</header>
 
   <div class="wrap layout">
     <nav class="sidebar" aria-label="Main navigation">
@@ -23,13 +29,8 @@
         <li><a href="#about">About OCTAV UTLS</a>
           <ul>
             <li><a href="#overview">Overview</a></li>
-            <li><a href="#working-group">Working Group</a></li>
-          </ul>
-        </li>
-        <li><a href="#report">Report</a>
-          <ul>
-            <li><a href="#structure">Structure</a></li>
-            <li><a href="#plan">Implementation Plan</a></li>
+            <li><a href="#Co-leads">Co-leads</a></li>
+            <li><a href="#Steering Committee">Steering Committee</a></li>
           </ul>
         </li>
         <li><a href="#publications">Publications</a>
@@ -55,50 +56,58 @@
     </nav>
 
     <main class="content">
-      <section class="hero" id="about">
-        <p class="eyebrow">Project website template</p>
-        <h1>OCTAV UTLS</h1>
-        <p class="lead">Use this page as a simple, GitHub Pages-ready starting point for a scientific project website. Replace placeholder text with project aims, people, publications, meeting notes, and resources.</p>
-      </section>
+
 
       <section id="overview">
         <h2>Overview</h2>
-        <p>OCTAV UTLS is a placeholder project name for coordinated activities focused on observations, comparisons, tools, analysis, and validation in the upper troposphere and lower stratosphere.</p>
+        <p>OCTAV-UTLS is a SPARC activity, which analyses trends of ozone and water vapour specifically in the UTLS region. The activity is lead by Irina Petropavlovkhikh (NOAA), Peter Hoor (JGU) and Luis Millan (JPL) who replaces Gloria Manney (NWRA).</p>
+        <p>The distribution of tracers in the Upper Troposphere and Lower Stratosphere (UTLS) shows a large spatial and temporal variability, caused by competing transport, chemical, and mixing processes near the tropopause, as well as variations in the tropopause itself. This strongly affects quantitative estimates of the impact of radiatively active substances, including ozone and water vapour, on surface temperatures,  and complicates diagnosis of dynamical processes such as stratosphere troposphere exchange (STE). The community thus faces challenge of optimally exploiting the existing portfolio of observations to better understand the physical composition of the UTLS, including past long-term changes in trace gas distributions and the processes that control them. </p>
+        <p>This activity will focus on improving the quantitative understanding of the UTLS’s role in climate and the impacts of stratosphere-troposphere exchange (STE) processes on air quality. Achieving this goal requires a detailed characterization of  existing measurements (from aircraft, ground-based, balloon, and satellite platforms) in the UTLS, including understanding how their quality and sampling characteristics (spatial and temporal coverage, resolution) affect the representativeness of these observations. </p>
+        <p>One key aspect of this activity will be to develop and apply common metrics to compare UTLS data using a variety of geophysically-based coordinate systems (e.g., tropopause, equivalent latitude, jet-focused) using meteorological information from reanalysis datasets. This approach will provide a framework for comparing measurements with diverse sampling patterns and thus will leverage the meteorological context to derive maximum information on UTLS composition and its relationships to dynamical variability.  </p>
+        <p>The activity will produce recommendations for  data comparisons in the UTLS region based on specific  techniques/instruments.  We will provide an assessment of gaps in current geographical/temporal sampling of the UTLS region that limit determining variability and trends, and suggest future measurement strategies that would help fill those gaps.</p>
+
         <div class="notice">
           <strong>Current update:</strong> Add your latest announcement here, such as an open special issue, workshop, report, or data release.
         </div>
       </section>
 
-      <section id="working-group">
-        <h2>Working Group</h2>
-        <p>List co-chairs, chapter leads, contributors, and participating institutions.</p>
+      <section id="Co-leads">
+        <h2>Co-leads</h2>
         <table>
-          <thead><tr><th>Role</th><th>Name</th><th>Institution</th></tr></thead>
+          <thead><tr><th>Name</th><th>Institution</th></tr></thead>
           <tbody>
-            <tr><td>Co-chair</td><td>Firstname Lastname</td><td>Institution</td></tr>
-            <tr><td>Data lead</td><td>Firstname Lastname</td><td>Institution</td></tr>
+          <tr><td>Peter Hoor</td><td>Johannes Gutenberg University, Mainz, Germany</td></tr>
+          <tr><td>Christian Rolf</td><td>Forschungszentrum Jülich GmbH, Jülich, Germany</td></tr>
+          <tr><td>Luis Millán</td><td>NASA Jet Propulsion Laboratory, Caltech, CA, USA</td></tr>
           </tbody>
         </table>
       </section>
 
-      <section id="report">
-        <h2>Report</h2>
-        <h3 id="structure">Structure</h3>
-        <ol>
-          <li>Introduction and scientific motivation</li>
-          <li>Datasets and methods</li>
-          <li>Intercomparison results</li>
-          <li>Recommendations and next steps</li>
-        </ol>
-        <h3 id="plan">Implementation Plan</h3>
-        <p>Add links to planning documents, milestones, and expected deliverables.</p>
+      <section id="Steering Committee">
+        <h2>Steering Committee</h2>
+        <table>
+          <thead><tr><th>Name</th><th>Institution</th></tr></thead>
+          <tbody>
+            <tr><td>Harald Bönisch</td><td>Karlsruhe Institute of Technology, Germany</td></tr>
+            <tr><td>Rob Damadeo</td><td>NASA Langley Research Center, USA</td></tr>
+            <tr><td>Michaela Hegglin</td><td>University of Reading, UK / Forschungszentrum Jülich, Germany </td></tr>
+            <tr><td>Daniel Kunkel</td><td>Johannes Gutenberg University Mainz, Germany</td></tr>
+            <tr><td>Thierry Leblanc </td><td>NASA Jet Propulsion Laboratory, Caltech, CA, USA</td></tr>
+            <tr><td>Gloria Manney</td><td>NorthWest Research Associates, USA</td></tr>
+            <tr><td>Irina Petropavlovskikh</td><td>NOAA/CIRES, University of Colorado, USA</td></tr>
+            <tr><td>Gabriele Stiller</td><td>Karlsruhe Institute of Technology, Germany</td></tr>
+            <tr><td>Susann Tegtmeier</td><td>University of Saskatchewan, Canada</td></tr>
+            <tr><td>Kaley Walker</td><td>University of Toronto, Canada</td></tr>
+          </tbody>
+        </table>
       </section>
 
       <section id="publications">
         <h2>Publications</h2>
         <h3 id="featured">Featured Publications</h3>
         <ul class="pub-list">
-          <li><strong>Author, A. et al.</strong> Title of OCTAV UTLS overview paper. <em>Journal Name</em>, year. <a href="#">doi/link</a></li>
+          <li><strong>Millán, L., Hoor, P., Hegglin, M. I., Manney, G. L., Jeffery, P. S., Weyland, F. M., et al. (2025):</strong> Ozone trends in the upper troposphere‐lower stratosphere using equivalent latitude‐potential temperature coordinates. <em>Geophysical Research Letters, 52, 2025GL118651</em>. <a href="https://doi.org/10.1029/2025GL118651" target="_blank" rel="noopener noreferrer">https://doi.org/10.1029/2025GL118651</a></li>
+          <li><strong>Luis F. Millán, Peter Hoor, Michaela I. Hegglin, Gloria L. Manney, Harald Boenisch, Paul Jeffery, Daniel Kunkel, Irina Petropavlovskikh, Hao Ye, Thierry Leblanc, and Kaley Walker (2024):</strong> Exploring ozone variability in the upper troposphere and lower stratosphere using dynamical coordinates. <em>Atmos. Chem. Phys., 24, 7927–7959</em>. <a href="https://doi.org/10.5194/acp-24-7927-2024" target="_blank" rel="noopener noreferrer">https://doi.org/10.5194/acp-24-7927-2024</a></li>
           <li><strong>Author, B. et al.</strong> Title of methods or data paper. <em>Journal Name</em>, year. <a href="#">doi/link</a></li>
         </ul>
         <h3 id="references">References</h3>
@@ -109,8 +118,70 @@
         <h2>Meetings</h2>
         <h3 id="upcoming">Upcoming Events</h3>
         <p><strong>Month Day, Year:</strong> OCTAV UTLS workshop or teleconference. Add registration and agenda links.</p>
-        <h3 id="past">Past Events</h3>
-        <p>Archive agendas, minutes, and presentations from past meetings.</p>
+
+        <h3 id="past" style="margin-top: 48px;">Past Events</h3>
+
+        <h4 style="margin-bottom: 4px;">OCTAV Meeting at KIT, Karlsruhe</h4>
+        <p style="font-size: 14px; color: var(--muted); margin-top: 0;">26/27 June 2025</p>
+
+        <figure style="margin: 16px 0;">
+          <img src="image_Logo_KIT.jpg" alt="KIT logo" style="max-width: 100%; height: auto; border: 1px solid var(--line); border-radius: 4px;">
+        </figure>
+
+        <p>
+          <strong>Agenda:</strong>
+          <a href="doc_Agenda_4thInternationalOCTAV-UTLSWorkshop.pdf" target="_blank" rel="noopener noreferrer" title="Download Agenda PDF">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/8/87/PDF_file_icon.svg" alt="PDF Icon" style="width: 24px; height: 24px; vertical-align: middle; margin-left: 4px;">
+          </a>
+        </p>
+
+
+        <h4 style="margin-top: 60px; margin-bottom: 4px;">ISSI-workshops in Berne, Switzerland</h4>
+        <p style="font-size: 14px; color: var(--muted); margin-top: 0;">28 February – 3 March 2023 & 30 April – 3 May 2024</p>
+
+        <figure style="margin: 16px 0;">
+          <img src="image_meeting_2023_ISSI.jpeg" alt="Participants of the OCTAV meeting at the ISSI-workshop in Berne" style="max-width: 100%; height: auto; border: 1px solid var(--line); border-radius: 4px;">
+          <!-- <figcaption style="font-size: 14px; color: var(--muted); margin-top: 1px;">Bildunterschrift</figcaption> -->
+        </figure>
+
+        <p> Organizer: Luis F. Millàn.</p>
+        <p><a href="https://aparc-climate.org/wp-content/uploads/2025/05/APARCnewsletter64Jan25_final.pdf" target="_blank" rel="noopener noreferrer">SPARC Newsletter No. 64</a>, 2025, pp. 3-7: Report on the APARC OCTAV-UTLS ISSI Working Group Meetings, Bern, Switzerland, by P. S. Jeffery, K. A. Walker, L. F. Millán, P. Hoor, M. I. Hegglin, G. L. Manney, H. Bönisch, D. Kunkel, I. Petropavlovskikh, H. Ye, T. Leblanc and F. M. Weyland.</p>
+        <p><a href="https://aparc-climate.org/wp-content/uploads/2025/10/SPARCnewsletter59jul22_web.pdf" target="_blank" rel="noopener noreferrer">SPARC Newsletter No. 59</a>, 2022, p. 23: OCTAV-UTLS activity: update from the March 2022 workshop, by I. Petropavlovskikh, H. Bönisch, M. Hegglin, P. Hoor, P. Jeffery, D. Kunkel, T. Leblanc, G. Manney, L. Millán, K. Walker and H. Ye.</p>
+        <p><a href="https://aparc-climate.org/wp-content/uploads/2025/10/SPARCnewsletter_Jul2020_web20200806.pdf" target="_blank" rel="noopener noreferrer">SPARC Newsletter No. 55</a>, 2020, p. 17: The third SPARC OCTAV-UTLS meeting, Thierry Leblanc, Luis Millán, Peter Hoor, and Irina Petropavlovskikh.</p>
+
+        <figure style="margin: 16px 0;">
+          <img src="image_meeting_2024_ISSI.jpg" alt="Participants of the OCTAV meeting at the ISSI-workshop in Berne" style="max-width: 100%; height: auto; border: 1px solid var(--line); border-radius: 4px;">
+          <!-- <figcaption style="font-size: 14px; color: var(--muted); margin-top: 1px;">Bildunterschrift</figcaption> -->
+        </figure>
+
+        <figure style="margin: 16px 0;">
+          <img src="image_meeting_2024_ISSI_2.jpg" alt="OCTAV meeting" style="max-width: 100%; height: auto; border: 1px solid var(--line); border-radius: 4px;">
+          <!-- <figcaption style="font-size: 14px; color: var(--muted); margin-top: 1px;">Bildunterschrift</figcaption> -->
+        </figure>
+
+        <h4 style="margin-top: 60px; margin-bottom: 4px;">OCTAV Meeting at TMF facility</h4>
+        <p style="font-size: 14px; color: var(--muted); margin-top: 0;">3.-5. March 2020</p>
+
+        <figure style="margin: 16px 0;">
+          <img src="image_meeting_2020.jpg" alt="Participants of the OCTAV meeting at the TMF facility in 2020" style="max-width: 100%; height: auto; border: 1px solid var(--line); border-radius: 4px;">
+          <figcaption style="font-size: 14px; color: var(--muted); margin-top: 1px;">Participants at the OCTAV meeting at Table Mountain: Emma Knowland, Thierry Leblanc (front), Jessica Neu, Nathaniel Livesey, Irina Petropavlovskikh, Harald Bönisch, Peter Hoor, Luis Millán (Foto: Emma Knowland)</figcaption>
+        </figure>
+
+        <p>This year meeting will be hosted by Thierry Leblanc at the TMF observatory (Jet Propulsion Laboratory, California Institute of Technology, Wrightwood, CA, USA) and will take place from 3.-5. March 2020.</p>
+        <p>The goal is to compare the first trend results from different platforms in JETPAC-based transformed coordinates
+        <p>To participate please send a message to Thierry Leblanc or the OCTAV Co-leads. Since the number of participants is limited please act soon.</p>
+        <p>
+          <strong>Agenda:</strong>
+          <a href="doc_OCTAV_UTLS_TMF_Agenda_v2_0.pdf" target="_blank" rel="noopener noreferrer" title="Download Agenda PDF">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/8/87/PDF_file_icon.svg" alt="PDF Icon" style="width: 24px; height: 24px; vertical-align: middle; margin-left: 4px;">
+          </a>
+        </p>
+        <p>
+          <strong>Travel information:</strong>
+          <a href="doc_OCTAV_TMF_Logisitcs.pdf" target="_blank" rel="noopener noreferrer" title="Download Travel information PDF">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/8/87/PDF_file_icon.svg" alt="PDF Icon" style="width: 24px; height: 24px; vertical-align: middle; margin-left: 4px;">
+          </a>
+        </p>
       </section>
 
       <section id="resources">
@@ -125,12 +196,33 @@
         <p>Add related programs, institutional pages, and partner organizations.</p>
       </section>
 
-      <section id="contacts">
-        <h2>Contacts</h2>
-        <p>For questions, contact <a href="mailto:project@example.org">project@example.org</a>.</p>
-      </section>
-    </main>
-  </div>
+  <section id="contacts">
+    <h2>Contacts</h2>
+    <p>For questions, contact <a href="mailto:project@example.org">project@example.org</a>.</p>
+
+    <h4 style="margin-bottom: 4px;">Partners</h4>
+
+    <div style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 20px; margin-top: 20px;">
+      <figure style="margin: 0;">
+        <a href="https://aparc-climate.org/" target="_blank" rel="noopener noreferrer">
+          <img src="image_APARC_RGB_logo.png" alt="logo APARC" style="width: 100%; border: 1px solid var(--line); border-radius: 4px; display: block;">
+        </a>
+      </figure>
+      <figure style="margin: 0;">
+        <a href="https://wmo.int/" target="_blank" rel="noopener noreferrer">
+          <img src="image_logo_wmo.png" alt="WMO Logo" style="width: 100%; border: 1px solid var(--line); border-radius: 4px; display: block;">
+        </a>
+      </figure>
+      <figure style="margin: 0;">
+        <a href="https://community.wmo.int/site/knowledge-hub/programmes-and-initiatives/global-atmosphere-watch-gaw-programme" target="_blank" rel="noopener noreferrer">
+          <img src="image_logo_gaw.png" alt="GAW Programme" style="width: 100%; border: 1px solid var(--line); border-radius: 4px; display: block;">
+        </a>
+      </figure>
+    </div>
+  </section>
+
+
+
 
   <footer class="site-footer">
     <div class="wrap">
