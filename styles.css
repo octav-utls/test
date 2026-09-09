@@ -30,6 +30,7 @@ a:hover { color: var(--accent-dark); text-decoration: underline; }
 }
 .header-grid { padding-top: 24px; padding-bottom: 24px; }
 .logo { display: inline-flex; align-items: center; gap: 12px; color: var(--ink); }
+.header_logo { margin-left: 100px; }
 .logo:hover { text-decoration: none; }
 .logo-mark {
   display: grid; place-items: center;
@@ -69,4 +70,8 @@ th { background: var(--panel); }
   .layout { grid-template-columns: 1fr; }
   .sidebar { border-right: 0; border-bottom: 1px solid var(--line); padding: 0 0 18px; }
   .tagline { margin-left: 0; }
+
+  .header-grid{ flex-direction: column; }
+  .header_logo { margin-left: 0px; }
+
 }
